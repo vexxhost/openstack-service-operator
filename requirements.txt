@@ -1,2 +1,0 @@
-kopf[uvloop]
-openstacksdk

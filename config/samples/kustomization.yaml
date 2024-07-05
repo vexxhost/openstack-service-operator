@@ -1,0 +1,5 @@
+## Append samples of your project ##
+resources:
+- identity_v1alpha1_service.yaml
+- identity_v1alpha1_endpoint.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

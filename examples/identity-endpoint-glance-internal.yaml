@@ -1,8 +1,0 @@
-apiVersion: identity.openstack.vexxhost.com/v1alpha1
-kind: Endpoint
-metadata:
-  name: glance-internal
-spec:
-  service: glance
-  interface: internal
-  url: http://glance-api.openstack.svc.cluster.local:9292/

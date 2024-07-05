@@ -1,0 +1,9 @@
+apiVersion: identity.openstack.org/v1alpha1
+kind: Endpoint
+metadata:
+  name: glance-internal
+spec:
+  region: RegionOne
+  serviceName: glance
+  interface: internal
+  url: http://glance-api.openstack.svc.cluster.local:9292/

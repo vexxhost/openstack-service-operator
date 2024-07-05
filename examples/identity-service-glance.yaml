@@ -1,8 +1,0 @@
-apiVersion: identity.openstack.vexxhost.com/v1alpha1
-kind: Service
-metadata:
-  name: glance
-spec:
-  name: glance
-  type: image
-  description: "OpenStack Image Service"

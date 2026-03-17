@@ -2,7 +2,7 @@ module github.com/vexxhost/openstack-service-operator
 
 go 1.22
 
-toolchain go1.22.2
+toolchain go1.26.1
 
 require (
 	github.com/gophercloud/gophercloud/v2 v2.0.0

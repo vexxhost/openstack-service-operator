@@ -1,11 +1,9 @@
 module github.com/vexxhost/openstack-service-operator
 
-go 1.22
-
-toolchain go1.22.2
+go 1.25.0
 
 require (
-	github.com/gophercloud/gophercloud/v2 v2.0.0
+	github.com/gophercloud/gophercloud/v2 v2.14.0
 	github.com/onsi/ginkgo/v2 v2.11.0
 	github.com/onsi/gomega v1.27.10
 	k8s.io/apimachinery v0.28.3
@@ -53,7 +51,7 @@ require (
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
